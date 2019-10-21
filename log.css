@@ -1,0 +1,121 @@
+#IMGSDA{
+    display: block;
+    margin-left: 10px;
+    margin-right: auto;
+}
+	
+#logo{
+
+margin:40px;
+float:left;
+
+}
+
+#title{
+	
+	text-align:left;
+	font-family:KoblenzBook;
+	font-size:12pt;
+	color:#ec008b;
+}
+
+#header{
+    
+	margin-top: 50px;
+	text-align:center;
+	font-family:KoblenzBook;
+	font-size:16pt;
+	color:#808080;
+}
+
+
+
+a{
+	text-decoration: none;
+	color: #27a9e1;
+}
+
+#vertical_line{
+
+	margin-left: 200px;
+	margin-right: 50px;
+	height:250px; 
+	width:1px;
+	background:#808080;
+	float: left;
+	}
+	
+#con{
+  margin-top: 30px;
+  text-align: center;
+  color: #666;
+  margin-bottom: 40px;
+  
+}
+
+#container{
+	float: left;
+}
+
+
+
+input[type="text"],
+input[type="password"],
+submit{
+  padding: 10px 20px;
+  border: transparent;
+  border-bottom: 1px solid #999;
+  display: block;
+  width: 80%;
+  height: 30%;
+  margin-left: 300px;
+  margin-bottom: 30px;
+  box-sizing: border-box;
+ 
+}
+
+input[type="checkbox"]{
+
+	padding: 10px 20px;
+	text-align:left;
+	margin-left: 300px;
+	margin-bottom: 30px;
+	
+}
+
+label{
+	font-family:KoblenzBook;
+	font-size:13pt;
+	
+}
+
+
+#submit{
+	margin-left: 300px;
+	float :left;
+	z-index:50;
+	display: inline-block;
+    font-family:KoblenzBook;
+  color: #27a9e1 ;
+  text-transform: uppercase;
+   border-style: solid;
+    border-color: #27a9e1 #27a9e1;
+	border-width:2px;
+  padding: 12px 40px;
+  border-radius: 25px;
+}
+
+#submit:hover{ 
+
+   color: #fff;
+   background: #27a9e1;
+}
+
+#alt{
+	
+	float:left;
+	font-family:KoblenzBook;
+	font-size:14pt;
+	color:#808080;
+	
+}

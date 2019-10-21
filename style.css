@@ -1,0 +1,64 @@
+body.html {
+    margin: 0;
+    padding: 0;
+}
+
+video {
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index:1;
+    background: transparent;
+}
+
+.overlay {
+    z-index: 2;
+    position: absolute;
+    background: rgba(0,0,0,0.4);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+section.about {
+	background-image: url(../img/about-face-2.jpg);
+	background-size: cover;
+	background-position: center bottom;
+	color: #3f3f42;
+}
+
+section.about h2 {
+	color: #3f3f42;
+	margin-left: -150px;
+	font-weight: 400;
+	font-size: 60px;
+	margin-top: -10px;
+	margin-bottom: 30px;
+	line-height: 1;
+}
+
+@media (max-width: 640px) {
+	section.about h2 {
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 300px;
+	}
+}
+
+section.about .lead {
+	padding-bottom: 180px;
+}
+
+@media (max-width: 640px) {
+	section.about .lead {
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 300px;
+	}
+}
